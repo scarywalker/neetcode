@@ -7,5 +7,3 @@ def longest_common_prefix(word_list:list)->str:
                 return output
         output += char
     return output
-
-print(longest_common_prefix(["flowergdsgdgs","f","flight"]))
