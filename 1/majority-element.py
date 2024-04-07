@@ -5,5 +5,3 @@ def majority_element(elements:list):
         if count > output[0]:
             output = [count,element]
     return output[1]
-
-print(majority_element([2,2,1,1,1,2,2]))
