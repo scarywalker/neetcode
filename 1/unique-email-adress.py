@@ -6,5 +6,3 @@ def unique_email_adress(emails:list)->list:
         local_name = local_name.replace(".","")
         output.append(local_name + Domain_name)
     return len(set(output))
-
-print(unique_email_adress(["a@leetcode.com","b@leetcode.com","c@leetcode.com"]))
